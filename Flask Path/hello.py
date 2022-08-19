@@ -24,5 +24,5 @@ def twopoints():
 
     return render_template("twopoints.html")
 
-app.run(debug = True)
+app.run(debug = False)
 
