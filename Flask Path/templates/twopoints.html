@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name = "viewport" content = "width=device-width, initial-scale=1.0">
+    <title> Two POI Station Planner </title>
+    <link rel = "stylesheet" type = "text/css" href = "{{ url_for('static',filename='styles/theme.css') }}">
+</head>
+
+
+<body>
+<h3> Our Flask Buttons </h3>
+    <form method = "post" action = "/">
+        <input type = "submit" value = "Right Side of Engine" name = "action1" />
+        <input type = "submit" value = "Left Side of Engine" name = "action2" />
+        <input type = "submit" value = "POI A" name = "action3" />
+        <input type = "submit" value = "POI B" name = "action4" />
+        <input type = "submit" value = "SUBMIT" name = "submit" />
+    </form>
+</body>
+</html>

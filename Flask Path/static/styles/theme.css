@@ -1,0 +1,7 @@
+input[type = submit] {
+    background-color: #16588E;
+    color: #ffffff;
+    width: 200px;
+    height: 200px;
+    border: 50px;
+}
